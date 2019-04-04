@@ -1,0 +1,14 @@
+package com.inheritance;
+
+public class GasAuto extends Auto {
+
+	private int gasAvailable;
+	private int tankVolume;
+	
+	public GasAuto(String producer, String model, EngineType engineType) {
+		super(producer, model, engineType);
+		this.gasAvailable = gasAvailable;
+		this.tankVolume = tankVolume;
+	}
+	
+}

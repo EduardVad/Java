@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.baseOOP.enums&apos; to &apos;com.baseOOP&apos;&#x0D;&#x0A;- Original project: &apos;JavaLearn&apos;&#x0D;&#x0A;- Original element: &apos;JavaLearn/src/com.baseOOP.enums&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaLearn/src/com.baseOOP&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.baseOOP.enums&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.baseOOP.enums" name="com.baseOOP" qualified="false" references="true" stamp="1542378763085" textual="false" version="1.0"/>
+</session>

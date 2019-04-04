@@ -1,0 +1,17 @@
+package com.db;
+
+public class DbConnection {
+
+	public static void main(String[] args) {
+		
+		try {
+			Class.forName("com.microsoft.sqlserver.jdbc");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+
+}

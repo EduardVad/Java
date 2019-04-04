@@ -1,0 +1,53 @@
+package com.interfaces;
+
+/**
+ * @author Eduard Kutsenco
+ *
+ */
+public class Pizza {
+	private String name;
+	private int quantity;
+	private int price;
+	private Size size;
+	
+	public Pizza(String name, int quantity, int price, Size size) {
+		super();
+		this.name = name;
+		this.quantity = quantity;
+		this.price = price;
+		this.size = size;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public Size getSize() {
+		return size;
+	}
+
+	public void setSize(Size size) {
+		this.size = size;
+	}
+	
+}

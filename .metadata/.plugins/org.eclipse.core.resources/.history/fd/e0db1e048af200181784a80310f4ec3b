@@ -1,0 +1,9 @@
+package com.interfaces;
+
+public class Electronics {
+	String make;
+	String model;
+	int quantity;
+	int price;
+
+}

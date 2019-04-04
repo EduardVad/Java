@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void printOutput(List&lt;Card&gt; deckOfCards)&apos; from &apos;com.collectionsClass.CollectionsRunner.main()&apos; to &apos;com.collectionsClass.CollectionsRunner&apos;&#x0D;&#x0A;- Original project: &apos;JavaLearn&apos;&#x0D;&#x0A;- Method name: &apos;printOutput&apos;&#x0D;&#x0A;- Destination type: &apos;com.collectionsClass.CollectionsRunner&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;printOutput&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;com.collectionsClass{CollectionsRunner.java" name="printOutput" replace="false" selection="990 172" stamp="1545162765203" version="1.0" visibility="2"/>
+</session>

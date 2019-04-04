@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;gradekey&apos; in &apos;com.javaio.IOMain.main(...)&apos; to &apos;gradeKey&apos;&#x0D;&#x0A;- Original project: &apos;JavaLearn&apos;&#x0D;&#x0A;- Original element: &apos;com.javaio.IOMain.main(String[]).gradekey&apos;&#x0D;&#x0A;- Renamed element: &apos;gradekey&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;gradekey&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.javaio{IOMain.java[IOMain~main~\[QString;@gradekey!502!546!522!529!QAverageStudentGrade;!0!false" name="gradeKey" references="true" stamp="1546285198429" version="1.0"/>
+</session>

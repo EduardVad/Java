@@ -1,0 +1,11 @@
+package com.inheritance;
+
+public class ElectricCar extends Auto{
+
+	public ElectricCar(String producer, String model, EngineType engineType) {
+		super(producer, model, engineType);
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

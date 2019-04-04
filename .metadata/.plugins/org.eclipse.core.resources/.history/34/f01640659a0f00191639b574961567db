@@ -1,0 +1,38 @@
+package com.javaio;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.NavigableMap;
+import java.util.Set;
+
+import com.map.treemap.AverageStudentGrade;
+import com.map.treemap.SubjectGrade;
+import com.map.treemap.TreeMapRunner;
+
+public class IOMain {
+	private final static String FILE_NAME = "GradeBook.txt";
+	
+	public static void main(String[] args) throws IOException {
+		NavigableMap<AverageStudentGrade, Set<SubjectGrade>> grades = TreeMapRunner.createGrades();
+		readFile(grades);
+		BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME));
+		while(reader.readLine() != null){
+			System.out.println(reader.readLine());
+		}
+	}
+
+	private static void readFile(NavigableMap<AverageStudentGrade, Set<SubjectGrade>> grades) throws IOException {
+		try (FileWriter writer = new FileWriter(FILE_NAME)) {
+			for (AverageStudentGrade gradeKey : grades.keySet()) {
+				writer.write("==========================================\n");
+				writer.write("Student: " + gradeKey.getName() + " Average grade: " + gradeKey.getAverageGrade() + "\n");
+				for (SubjectGrade grade : grades.get(gradeKey)) {
+					writer.write("Subject: " + grade.getSubject() + " Grade: " + grade.getGrade() + "\n");
+				}
+			}
+		}
+	}
+
+}

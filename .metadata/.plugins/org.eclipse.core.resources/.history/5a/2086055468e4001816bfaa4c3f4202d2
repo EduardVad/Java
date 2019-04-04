@@ -1,0 +1,30 @@
+package com.db;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class DbConnection {
+
+	public static void main(String[] args) {
+		
+//		try {
+//			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//		} catch (ClassNotFoundException e) {
+//			e.printStackTrace();
+//		}
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			DriverManager.registerDriver(new com.microsoft.sqlserver.jdbc.SQLServerDriver());
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
